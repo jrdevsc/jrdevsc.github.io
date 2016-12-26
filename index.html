@@ -4,14 +4,161 @@
   <meta charset="UTF-8">
   <title>Julian Rudolph</title>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
-  <div class="container">
-    <div class="jumbotron">
-      <h1>Hello Github!</h1>
+  <section id="navigation">
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#mycollapsenav" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Julian</a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="mycollapsenav">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Projects</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container-fluid -->
+    </nav>
+  </section>
+
+<section id="intro">
+  <div class="row">
+    <div class="col-md-12">
+      <div class="jumbotron">
+        <div class="container">
+          <div class="col-md-6">
+            <h1>Front End Developer</h1>
+            <hr>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit ducimus animi molestias eaque iure corporis nisi dolorum sapiente laboriosam quisquam pariatur et, praesentium mollitia magnam libero tenetur repellat doloribus quasi ipsa hic? Sapiente, repudiandae incidunt autem dolore, accusamus veritatis corrupti consequatur eos quam. Natus, ex.</p>
+          </div>
+          <div class="col-md-6">
+            <img class="img-circle" src="http://placehold.it/350x350">
+          </div>
+        </div>
+      </div>
     </div>
   </div>
+</section> <!-- end intro section -->
+
+<section id="about">
+  <div class="row">
+    <div class="col-md-12 text-center">
+      <h2>About</h2>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-6">
+      <h3 class="text-center">About Me:</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis labore repellendus, laboriosam consequuntur mollitia aperiam, nisi ipsam, tempore officia perspiciatis autem nemo.</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet reprehenderit nostrum at! Reiciendis voluptates nulla corrupti aliquid aspernatur, eaque sequi eveniet id quis asperiores harum ex tenetur rem, ad dignissimos beatae voluptate architecto quibusdam aut!</p>
+    </div>
+    <div class="col-md-5">
+      <h3 class="text-center">What I use:</h3>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem, ipsam dolor, expedita consequatur enim natus.</p>
+      <ul>
+        <li>html/css</li>
+        <li>javascript/jquery</li>
+        <li>Bootstrap and other frameworks</li>
+        <li>express / node / react</li>
+        <li>mongo</li>
+      </ul>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero perferendis, unde eos? Nostrum consequuntur in dolores inventore placeat, voluptatum itaque explicabo quam modi perspiciatis?</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit saepe labore facere amet sunt veritatis, eaque doloremque quis, assumenda dolorem dignissimos ut illo natus quam quibusdam nemo unde sapiente vitae, nam accusamus necessitatibus veniam. Totam.</p>
+    </div>
+  </div>
+</section> <!-- end about section -->
+
+<section id="projects">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 text-center">
+        <h2>Projects:</h2>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-6 col-md-4 text-center">
+        <div class="thumbnail">
+          <img src="http://placehold.it/250x250" class="img-circle" alt="...">
+          <div class="caption">
+            <h3>Tribute Page</h3>
+            <h4>Murrary Rothbard</h4>
+            <p>Tribute page for FCC</p>
+            <p><a href="#" class="btn btn-success" role="button">View</a> <a href="#" class="btn btn-info" role="button">Github <i class="glyphicon glyphicon-fire"></i></a></p>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-4 text-center">
+        <div class="thumbnail">
+          <img src="http://placehold.it/250x250" class="img-circle" alt="...">
+          <div class="caption">
+            <h3>Random Quote Generator</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima facere explicabo voluptate vel, reiciendis hic.</p>
+            <p><a href="#" class="btn btn-success" role="button">View</a> <a href="#" class="btn btn-info" role="button">Github <i class="glyphicon glyphicon-fire"></i></a></p>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-4 text-center">
+        <div class="thumbnail">
+          <img src="http://placehold.it/250x250" class="img-circle" alt="...">
+          <div class="caption">
+            <h3>Local Weather</h3>
+            <p>Local weather app for FCC. Uses javascript, and ajax with jquery! Everything comes from the OWM API.</p>
+            <p><a href="#" class="btn btn-success" role="button">View</a> <a href="#" class="btn btn-info" role="button">Github <i class="glyphicon glyphicon-fire"></i></a></p>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-4 text-center">
+        <div class="thumbnail">
+          <img src="http://placehold.it/250x250" class="img-circle" alt="...">
+          <div class="caption">
+            <h3>Wikipedia Viewer</h3>
+            <p>Wikipedia viewer</p>
+            <p><a href="#" class="btn btn-success" role="button">View</a> <a href="#" class="btn btn-info" role="button">Github <i class="glyphicon glyphicon-fire"></i></a></p>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-6 col-md-4 text-center">
+        <div class="thumbnail">
+          <img src="http://placehold.it/250x250" class="img-circle" alt="...">
+          <div class="caption">
+            <h3>Twitch.tv App</h3>
+            <h4>TwitchMe / TweakMe</h4>
+            <p>Twitch.tv viewer.</p>
+            <p><a href="#" class="btn btn-success" role="button">View</a> <a href="#" class="btn btn-info" role="button">Github <i class="glyphicon glyphicon-fire"></i></a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section> <!-- end projects section -->
+
+<section id="contact">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-6">
+        <h3>Contact:</h3>
+      </div>
+      <div class="col-sm-6">
+        <img src="http://placehold.it/450x450" class="img-circle">
+      </div>
+    </div>
+  </div>
+  </div>
+</section>
 
   <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
