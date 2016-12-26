@@ -1,3 +1,71 @@
 body{
-  padding-top: 50px;
+  padding-top: 70px;
+}
+
+/*typeface styles*/
+
+h1 {
+    font-family: 'Amatic SC', cursive;
+    font-weight: 700;
+    line-height: 46px;
+    font-size: 46px;
+    margin: 0 0 23px 0;
+    }
+h2, h3{
+  font-family: 'Amatic SC', cursive;
+  line-height: 46px;
+  font-size: 46px;
+}
+p{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 16px;
+    line-height: 23px;
+    /*margin: 0 0 23px 0;*/
+    margin: 1em;
+    }
+li, .navbar-brand{
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 16px;
+  /*line-height: 23px;*/
+  /*margin: 0 0 23px 0;*/
+  margin: 1em;
+}
+
+.navbar-brand{
+  font-size: 1.5em;
+}
+
+.sectionHead{
+  text-decoration: underline;
+  margin-bottom: 55px;
+}
+
+.navbar-nav li a{
+  color: red;
+}
+
+/*jumbotron*/
+
+#introtext{
+  margin-top: 75px;
+}
+
+/*projects section*/
+.thumbnail{
+  border: none;
+  background: none;
+}
+
+.btn-success{
+  background: transparent;
+  color: #5cb85c;
+}
+
+.btn-info{
+  background: transparent;
+  color: #5bc0de;
+}
+
+.btn{
+  font-size: 1.4em;
 }
