@@ -1,3 +1,1 @@
-$('.img-circle').hover(function(){
-  
-});
+

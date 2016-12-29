@@ -69,3 +69,12 @@ li, .navbar-brand{
 .btn{
   font-size: 1.4em;
 }
+
+.border{
+  border: 1px solid red;
+}
+
+.img-circle{
+  height: 250px;
+  width: 250px;
+}
