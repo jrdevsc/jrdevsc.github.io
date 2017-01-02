@@ -5,6 +5,7 @@
   <title>Julian Rudolph</title>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:700|Amatic+SC" rel="stylesheet" type="text/css" />
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="css/styles.css">
   <link rel="stylesheet" href="css/hover-min.css">
 </head>
@@ -37,25 +38,23 @@
     </nav>
   </section>
 
-<section id="intro">
-  <div class="row">
-
-      <div class="jumbotron">
-        <div class="row">
-          <div class="col-md-8">
+  <section id="intro">
+    <div class="container">
+      <div class="row">
+        <div class="jumbotron">
             <div id="introtext" class="text-center">
-              <h1>Front End Developer</h1>
+              <h1>Julian Rudolph</h1>
+              <h2>Front End Developer</h2>
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Velit ducimus animi molestias eaque iure corporis nisi dolorum sapiente laboriosam quisquam pariatur et, praesentium mollitia magnam libero tenetur repellat doloribus quasi ipsa hic? Sapiente, repudiandae incidunt autem dolore, accusamus veritatis corrupti consequatur eos quam. Natus, ex.</p>
+              <img id="introimg" class="img-circle" src="http://placehold.it/350x350">
             </div>
-          </div>
-
-          <div class="col-md-4">
-            <img id="introimg" class="img-circle" src="http://placehold.it/350x350">
-          </div>
+            <!-- <div id="imgdiv">
+              <img id="introimg" class="img-round" src="http://placehold.it/350x450">
+            </div> -->
+        </div>
       </div>
     </div>
-  </div>
-</section> <!-- end intro section -->
+  </section>
 
 <section id="about">
   <div class="row">
@@ -69,7 +68,7 @@
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nobis labore repellendus, laboriosam consequuntur mollitia aperiam, nisi ipsam, tempore officia perspiciatis autem nemo.</p>
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet reprehenderit nostrum at! Reiciendis voluptates nulla corrupti aliquid aspernatur, eaque sequi eveniet id quis asperiores harum ex tenetur rem, ad dignissimos beatae voluptate architecto quibusdam aut!</p>
     </div>
-    <div class="col-md-5">
+    <div class="col-md-6">
       <h3 class="text-center">What I use:</h3>
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem, ipsam dolor, expedita consequatur enim natus.</p>
       <ul>
@@ -86,65 +85,55 @@
 </section> <!-- end about section -->
 
 <section id="projects">
-  <div class="container">
+  <div class="container-fluid">
     <div class="row">
       <div class="col-md-12 text-center">
         <h2 class="sectionHead">Projects</h2>
       </div>
     </div>
     <div class="row">
-      <div class="col-sm-6 col-md-4 text-center">
-        <div class="thumbnail">
-          <img src="https://placehold.it/250x250" class="img-circle" alt="...">
-          <div id="moreinfo"></div>
-          <div class="caption">
-            <h3>Tribute Page</h3>
-            <p><em>Murrary Rothbard</em></p>
-            <p><a href="http://codepen.io/jrdevsc/full/bwvYEP/" class="btn btn-success" role="button">View</a></p>
-          </div>
-        </div>
-      </div>
-      <div class="col-sm-6 col-md-4 text-center">
+      <div class="col-sm-6 col-md-3 text-center">
         <div class="thumbnail">
           <img src="http://placehold.it/250x250" class="img-circle" alt="...">
           <div class="caption">
             <h3>Random Quote Generator</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima facere explicabo voluptate vel, reiciendis hic.</p>
-            <p><a href="#" class="btn btn-success" role="button">View</a> <a href="#" class="btn btn-info" role="button">Github <i class="glyphicon glyphicon-fire"></i></a></p>
+            <p class="pdesc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima facere explicabo voluptate vel, reiciendis hic.</p>
+            <p><a href="#" class="btn btn-warning" role="button">View <i class="fa fa-eye" aria-hidden="true"></i></a> <a href="#" class="btn btn-danger" role="button">Github <i class="fa fa-github-alt" aria-hidden="true"></i></a></p>
           </div>
         </div>
       </div>
-      <div class="col-sm-6 col-md-4 text-center">
+      <div class="col-sm-6 col-md-3 text-center">
         <div class="thumbnail">
           <img src="https://placehold.it/250x250" class="img-circle" alt="...">
           <div class="caption">
             <h3>Local Weather</h3>
-            <p>Local weather app. Uses jquery to make a call to the weather underground api.</p>
-            <p><a href="https://jrdevsc.github.io/wuWeather/" class="btn btn-success" role="button">View</a> <a href="https://github.com/jrdevsc/wuWeather" class="btn btn-info" role="button">Github <i class="glyphicon glyphicon-fire"></i></a></p>
+            <p class="pdesc">Local weather app. Uses jquery to make a call to the weather underground api.</p>
+            <p><a href="https://jrdevsc.github.io/wuWeather/" class="btn btn-warning" role="button">View <i class="fa fa-eye" aria-hidden="true"></i></a> <a href="https://github.com/jrdevsc/wuWeather" class="btn btn-danger" role="button">Github <i class="fa fa-github-alt" aria-hidden="true"></i></a></p>
           </div>
         </div>
       </div>
-      <div class="col-sm-6 col-md-4 text-center">
-        <div class="thumbnail">
-          <img src="https://placehold.it/250x250" class="img-circle" alt="...">
-          <div class="caption">
-            <h3>Wikipedia Viewer</h3>
-            <p>Wikipedia viewer</p>
-            <p><a href="#" class="btn btn-success" role="button">View</a> <a href="#" class="btn btn-info" role="button">Github <i class="glyphicon glyphicon-fire"></i></a></p>
+
+        <div class="col-sm-6 col-md-3 text-center">
+          <div class="thumbnail">
+            <img src="https://placehold.it/250x250" class="img-circle" alt="...">
+            <div class="caption">
+              <h3>Wikipedia Viewer</h3>
+              <p class="pdesc">Wikipedia viewer</p>
+              <p><a href="#" class="btn btn-warning" role="button">View <i class="fa fa-eye" aria-hidden="true"></i></a> <a href="#" class="btn btn-danger" role="button">Github <i class="fa fa-github-alt" aria-hidden="true"></i></a></p>
+            </div>
           </div>
         </div>
-      </div>
-      <div class="col-sm-6 col-md-4 text-center">
-        <div class="thumbnail">
-          <img src="https://placehold.it/250x250" class="img-circle" alt="...">
-          <div class="caption">
-            <h3>Twitch.tv App</h3>
-            <h4>TwitchMe / TweakMe</h4>
-            <p>Twitch.tv viewer.</p>
-            <p><a href="#" class="btn btn-success" role="button">View</a> <a href="#" class="btn btn-info" role="button">Github <i class="glyphicon glyphicon-fire"></i></a></p>
+        <div class="col-sm-6 col-md-3 text-center">
+          <div class="thumbnail">
+            <img src="https://placehold.it/250x250" class="img-circle" alt="...">
+            <div class="caption">
+              <h3>Twitch.tv App</h3>
+              <p class="pdesc">Twitch.tv Search</p>
+              <p><a href="#" class="btn btn-warning" role="button">View <i class="fa fa-eye" aria-hidden="true"></i></a> <a href="#" class="btn btn-danger" role="button">Github <i class="fa fa-github-alt" aria-hidden="true"></i></a></p>
+            </div>
           </div>
         </div>
-      </div>
+
     </div>
   </div>
 </section> <!-- end projects section -->

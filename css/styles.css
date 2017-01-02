@@ -1,8 +1,20 @@
 body{
   padding-top: 70px;
+  background: url('../img/magmalava.jpg')no-repeat center center fixed;
+  background-size: cover;
+  color: #fff;
 }
 
 /*typeface styles*/
+
+.caption h3,
+.caption p{
+  color: #fff;
+}
+
+.pdesc{
+  background: rgba(0, 0, 0, .5);
+}
 
 h1 {
     font-family: 'Amatic SC', cursive;
@@ -20,14 +32,11 @@ p{
     font-family: 'Josefin Sans', sans-serif;
     font-size: 16px;
     line-height: 23px;
-    /*margin: 0 0 23px 0;*/
     margin: 1em;
     }
 li, .navbar-brand{
   font-family: 'Josefin Sans', sans-serif;
   font-size: 16px;
-  /*line-height: 23px;*/
-  /*margin: 0 0 23px 0;*/
   margin: 1em;
 }
 
@@ -40,14 +49,27 @@ li, .navbar-brand{
   margin-bottom: 55px;
 }
 
-.navbar-nav li a{
-  color: red;
-}
 
 /*jumbotron*/
 
 #introtext{
   margin-top: 75px;
+}
+
+.jumbotron h1{
+  text-shadow: 2px -3px 3px rgba(0, 0, 0, .4);
+}
+
+
+.jumbotron p{
+  background: rgba(0, 0, 0, .5);
+  padding: 15px 10px;
+  line-height: 1.5em;
+}
+
+.jumbotron{
+  /*background: rgba(255, 255, 255, .4);*/
+  background: transparent;
 }
 
 /*projects section*/
@@ -56,25 +78,6 @@ li, .navbar-brand{
   background: none;
 }
 
-.btn-success{
-  background: transparent;
-  color: #5cb85c;
-}
-
-.btn-info{
-  background: transparent;
-  color: #5bc0de;
-}
-
 .btn{
-  font-size: 1.4em;
-}
-
-.border{
-  border: 1px solid red;
-}
-
-.img-circle{
-  height: 250px;
-  width: 250px;
+  font-size: 1.3em;
 }
