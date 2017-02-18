@@ -5,6 +5,12 @@ body{
   color: #fff;
 }
 
+.uses{
+  font-size: .7em;
+  text-decoration: underline;
+
+}
+
 /*typeface styles*/
 
 .caption h3,
