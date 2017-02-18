@@ -5,10 +5,22 @@ body{
   color: #fff;
 }
 
+a{
+  color: #fff;
+}
+
+a:hover{
+  color: #ccc;
+}
+
 .uses{
   font-size: .7em;
   text-decoration: underline;
 
+}
+
+#welcome{
+  font-size: 2em;
 }
 
 /*typeface styles*/
