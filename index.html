@@ -2,195 +2,204 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Julian Rudolph</title>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:700|Amatic+SC" rel="stylesheet" type="text/css" />
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link rel="stylesheet" href="css/styles.css">
-  <link rel="stylesheet" href="css/hover-min.css">
+  <title>Julian Rudolph | Front End Developer</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Cabin|Roboto:400,700|Roboto+Condensed:400,700" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
-  <section id="navigation">
-    <nav class="navbar navbar-inverse navbar-fixed-top">
-      <div class="container-fluid">
-        <!-- Brand and toggle get grouped for better mobile display -->
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#mycollapsenav" aria-expanded="false">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand" href="#">Julian Rudolph</a>
-        </div>
-
-        <!-- Collect the nav links, forms, and other content for toggling -->
-        <div class="collapse navbar-collapse" id="mycollapsenav">
-          <ul class="nav navbar-nav navbar-right">
-            <li><a href="#intro">Home</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#contact">Contact</a></li>
-          </ul>
-        </div><!-- /.navbar-collapse -->
-      </div><!-- /.container-fluid -->
+  <section id="navs">
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#">Julian Rudolph</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto" >
+          <li class="nav-item">
+            <a class="nav-link" href="#welcome">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#projects">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
     </nav>
   </section>
 
-  <section id="intro">
-    <div class="container">
-      <div class="row">
-        <div class="jumbotron text-center">
-            <div id="introtext">
-              <div class="col-md-6">
-                <h1>Julian Rudolph</h1>
-                <h2>Front-End Developer</h2>
-              </div>
-              <div class="col-md-6">
-                <img id="introimg" class="img-thumbnail" src="img/Awesome51_2.jpg">
-              </div>
-            </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-<section id="about">
-  <div class="row">
-    <div class="col-md-12 text-center">
-      <h2 class="sectionHead">About</h2>
-    </div>
-  </div>
-  <div class="row">
-    <div class="col-md-6">
-      <h3 class="text-center">About Me:</h3>
-      <p>I am a self-taught front-end developer who loves working with javascript. I love working with APIs and really enjoy making web apps that make life easier.  </p>
-      <p>While I am currently looking for front-end opportunities and projects, I tend to drift more toward full-stack javascript.  </p>
-    </div>
-    <div class="col-md-6">
-      <h3 class="text-center">What I use:</h3>
-      <p>My Dev enviroment is pretty simple, good ol' Atom!</p>
-      <ul>
-        <li>HTML/CSS</li>
-        <li>Bootstrap, other various front-end frameworks</li>
-        <li>javaScript/Jquery</li>
-        <li>Express.js / Node.js / React.js</li>
-        <li>MongoDB</li>
-      </ul>
-    </div>
-  </div>
-</section> <!-- end about section -->
-
-<section id="projects">
-  <div class="container-fluid">
-    <div class="row">
-      <div class="col-md-12 text-center">
-        <h2 class="sectionHead">Projects</h2>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-sm-6 col-md-3 text-center">
-        <div class="thumbnail">
-          <img src="img/RandoQuotz.png" class="img-thumbnail" alt="RandoQuotz">
-          <div class="caption">
-            <h3>RandoQuotz</h3>
-            <p class="pdesc"><em>Random Quote Generator and Tweets</em><br> This is a project that uses the forismatic API to find and show a random quote. Users can also tweet the quote, opens in new window. I left the styles fairly plain, I want the user to focus on the words instead of how pretty it is.<br> <span class="uses">HTML, CSS, javaScript, Jquery, AJAX, Forismatic API</span> </p>
-            <p><a href="http://codepen.io/jrdevsc/full/LxYKYG/" class="btn btn-warning" role="button">View <i class="fa fa-eye" aria-hidden="true"></i></a>
-          </div>
-        </div>
-      </div>
-      <div class="col-sm-6 col-md-3 text-center">
-        <div class="thumbnail">
-          <img src="img/weathe_WU.png" class="img-thumbnail" alt="Local Weather">
-          <div class="caption">
-            <h3>Local Weather</h3>
-            <p class="pdesc"><em>Local Weather App</em><br> This project uses the weather underground API to return the local weather.<br> <span class="uses">HTML, CSS, javaScript, Jquery, AJAX, WeatherUnderground API</span></p>
-            <p><a href="https://jrdevsc.github.io/wuWeather/" class="btn btn-warning" role="button">View <i class="fa fa-eye" aria-hidden="true"></i></a> <a href="https://github.com/jrdevsc/wuWeather" class="btn btn-danger" role="button">Github <i class="fa fa-github-alt" aria-hidden="true"></i></a></p>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-sm-6 col-md-3 text-center">
-        <div class="thumbnail">
-          <img src="img/twitch_me.png" class="img-thumbnail" alt="TwitchMe app">
-          <div class="caption">
-            <h3>TwitchMe</h3>
-            <p class="pdesc"><em>Twitch.TV API Project</em> <br>This project uses the TwitchTV API to check if users are streaming and what they are streaming. Users are presented with a few prepopulated streamers, and can also search for other streamers. Users can also be sent directly to the stream. <br><span class="uses">HTML, CSS, javaScript, Jquery, AJAX, Twitch API</span></p>
-            <p><a href="https://jrdevsc.github.io/fccTwitchMe/" class="btn btn-warning" role="button">View <i class="fa fa-eye" aria-hidden="true"></i></a> <a href="https://github.com/jrdevsc/fccTwitchMe" class="btn btn-danger" role="button">Github <i class="fa fa-github-alt" aria-hidden="true"></i></a></p>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-sm-6 col-md-3 text-center">
-        <div class="thumbnail">
-          <img src="img/ge-zz.png" class="img-thumbnail" alt="ge-zz app">
-          <div class="caption">
-            <h3>GE-zz</h3>
-            <p class="pdesc"><em>Concept App</em><br> This project came from a coworker who was looking for better communication between the material handlers and the machinist. This is the concept I came up with.  Simple web app that users can select what part they need from a list of options. Once submitted, app sends a text to the material handler. <br> <span class="uses">HTML, CSS, javaScript, jQuery, AJAX, Twillo API, Express, Node, Heroku</span></p>
-            <p><a href="https://safe-atoll-52530.herokuapp.com/" class="btn btn-warning" role="button">View <i class="fa fa-eye" aria-hidden="true"></i></a> <a href="https://github.com/jrdevsc/gezz2" class="btn btn-danger" role="button">Github <i class="fa fa-github-alt" aria-hidden="true"></i></a></p>
-          </div>
-        </div>
-      </div>
-
-        <!-- <div class="col-sm-6 col-md-3 text-center">
-          <div class="thumbnail">
-            <img src="https://placehold.it/250x250" class="img-circle" alt="...">
-            <div class="caption">
-              <h3>Wikipedia Viewer</h3>
-              <p class="pdesc">Wikipedia viewer</p>
-              <p><a href="#" class="btn btn-warning" role="button">View <i class="fa fa-eye" aria-hidden="true"></i></a> <a href="#" class="btn btn-danger" role="button">Github <i class="fa fa-github-alt" aria-hidden="true"></i></a></p>
-            </div>
-          </div>
-        </div> -->
-
-    </div>
-  </div>
-</section> <!-- end projects section -->
-
-<section id="contact">
-  <div class="container">
-    <div class="row">
-      <div class="col-sm-12 text-center">
-        <h2 class="sectionHead">Contact</h2>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col-sm-3 text-center">
-        <h3>Email</h3>
-        <i class="fa fa-envelope-o fa-4x"></i>
-        <p>jprudolp03@gmail.com</p>
-      </div>
-      <div class="col-sm-3 text-center">
-        <!-- <h3>Github</h3>
-        <i class="fa fa-github fa-4x"></i> -->
-        <a href="https://github.com/jrdevsc">
-          <h3>Github</h3>
-          <i class="fa fa-github fa-4x"></i>
-        </a>
-        <p>https://github.com/jrdevsc</p>
-      </div>
-      <div class="col-sm-3 text-center">
-        <a href="https://www.freecodecamp.com/jrdevsc">
-          <h3>Free Code Camp</h3>
-          <i class="fa fa-free-code-camp fa-4x"></i>
-          <p>https://www.freecodecamp.com/jrdevsc</p>
-        </a>
-      </div>
-      <div class="col-sm-3 text-center">
-        <a href="https://www.linkedin.com/in/julian-rudolph-b5572b136/">
-          <h3>Linkedin</h3>
-          <i class="fa fa-linkedin fa-4x"></i>
-          <p>My LinkedIn profile</p>
-        </a>
-      </div>
-    </div>
-  </div>
+<section id="welcome">
+  <div class="jumbotron text-center">
+    <h1 class="display-1">Julian Rudolph</h1>
+    <p class="lead">Front End Developer</p>
   </div>
 </section>
 
-  <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-  <script src="scripts.js"></script>
+<section id="about">
+  <div class="row">
+    <div class="col" id="abMe">
+      <h1 class="display-2">About</h1>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col align-self-center" id="abTxt">
+        <p class="text-center">Hello, I'm a front end developer with a passion for javascript.</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col" id="icons1">
+    <i class="fa fa-html5 fa-4x" aria-hidden="true"></i>
+    <i class="fa fa-css3 fa-4x" aria-hidden="true"></i>
+    <i class="fa fa-code fa-4x" aria-hidden="true"></i>
+    <i class="fa fa-codepen fa-4x" aria-hidden="true"></i>
+    <i class="fa fa-free-code-camp fa-4x" aria-hidden="true"></i>
+    <i class="fa fa-github-alt fa-4x" aria-hidden="true"></i>
+    <i class="fa fa-database fa-4x" aria-hidden="true"></i>
+    </div>
+    </div>
+  </div>
+</section>
+
+<section id="projects">
+  <div class="container">
+  <div class="row">
+    <div class="col">
+      <h1 class="display-2 text-center">Projects</h1>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col">
+      <div class="card" style="width: 20rem;">
+        <img class="card-img-top" src="img/RandoQuotz.png" alt="Card image cap">
+        <div class="card-body">
+          <h4 class="card-title">RandoQuotz</h4>
+          <p class="card-text">Random quote generator. Built as part of FreeCodeCamp's front end curriculum. Uses ajax to retreive quotes from an API.</p>
+          <a href="https://codepen.io/jrdevsc/full/LxYKYG" class="btn btn-outline-info">View <i class="fa fa-eye"></i></a>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card" style="width: 20rem;">
+        <img class="card-img-top" src="img/weathe_WU.png" alt="Card image cap">
+        <div class="card-body">
+          <h4 class="card-title">Local Weather App</h4>
+          <p class="card-text">Shows your local weather. Built as part of FreeCodeCamp's front end curriculum.  Uses ajax and the weather underground API.</p>
+          <a href="https://jrdevsc.github.io/wuWeather/" class="btn btn-outline-info">View <i class="fa fa-eye"></i></a>
+          <a href="https://github.com/jrdevsc/wuWeather" class="btn btn-outline-success">Github <i class="fa fa-github"></i></a>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card" style="width: 20rem;">
+        <img class="card-img-top" src="img/twitch_me.png" alt="Card image cap">
+        <div class="card-body">
+          <h4 class="card-title">TwitchMe</h4>
+          <p class="card-text">Twitch Search. Uses Twitch API to find users who are streaming, and those that aren't.  Built as part of FreeCodeCamp's front end curriculum.</p>
+          <a href="https://codepen.io/jprudolph/full/wraMEN/" class="btn btn-outline-info">View <i class="fa fa-eye"></i></a>
+          <a href="https://github.com/jrdevsc/fccTwitchMe" class="btn btn-outline-success">Github <i class="fa fa-github"></i></a>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card" style="width: 20rem;">
+        <img class="card-img-top" src="img/ge-zz.png" alt="Card image cap">
+        <div class="card-body">
+          <h4 class="card-title">GE-zz</h4>
+          <p class="card-text">An app for people on GE Gas Turbine's assembly line to tell me (I was the forklift driver at the time) what parts they needed, without having to waste time and trips. User selects machine and part needed, and I get a text with that info. Built with express and the Twilio API.  Currently the twilio free plan is not working.</p>
+          <a href="https://safe-atoll-52530.herokuapp.com/" class="btn btn-outline-info">View <i class="fa fa-eye"></i></a>
+          <a href="https://github.com/jrdevsc/gezz2" class="btn btn-outline-success">Github <i class="fa fa-github"></i></a>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card" style="width: 20rem;">
+        <img class="card-img-top" src="img/wikiviewer.png" alt="Card image cap">
+        <div class="card-body">
+          <h4 class="card-title">Wiki View</h4>
+          <p class="card-text">Wikipedia viewer. Uses ajax to request a random article or the search term. Built as part of FreeCodeCamp's front end curriculum.</p>
+          <a href="https://codepen.io/jprudolph/full/VMLqjm/" class="btn btn-outline-info">View <i class="fa fa-eye"></i></a>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card" style="width: 20rem;">
+        <img class="card-img-top" src="img/drronpaul.png" alt="Card image cap">
+        <div class="card-body">
+          <h4 class="card-title">Tribute Page</h4>
+          <p class="card-text">Basic HTML and CSS here. Built as part of FreeCodeCamp's front end curriculum.</p>
+          <a href="https://codepen.io/jprudolph/full/XavQQY/" class="btn btn-outline-info">View <i class="fa fa-eye"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col">
+      <div class="card" style="width: 20rem;">
+        <img class="card-img-top" src="img/btcvalue.png" alt="Card image cap">
+        <div class="card-body">
+          <h4 class="card-title">Quick BTC Checker</h4>
+          <p class="card-text">Lets build a time machine, go back to 2011, invest in BTC, come back to today, and live off the millions in BTC?  Simple BTC checker here. Basic HTML, CSS and JS.</p>
+          <a href="https://codepen.io/jprudolph/full/mBXwRq/" class="btn btn-outline-info">View <i class="fa fa-eye"></i></a>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card" style="width: 20rem;">
+        <img class="card-img-top" src="img/starwarsapi.png" alt="Card image cap">
+        <div class="card-body">
+          <h4 class="card-title">Starwars API</h4>
+          <p class="card-text">Built for fun. Uses the Starwars API and displays the 'crawl text' and basic stats (characters, planets, starships, etc).</p>
+          <a href="https://codepen.io/jprudolph/full/XebOVa/" class="btn btn-outline-info">View <i class="fa fa-eye"></i></a>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card" style="width: 20rem;">
+        <img class="card-img-top" src="img/drbawe.png" alt="Card image cap">
+        <div class="card-body">
+          <h4 class="card-title">Dr. B. Awe</h4>
+          <p class="card-text">Client site. Wordpress using the Divi Theme from elegant themes. </p>
+          <a href="http://drbawe.com" class="btn btn-outline-info">View <i class="fa fa-eye"></i></a>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <div class="card" style="width: 20rem;">
+        <img class="card-img-top" src="img/muhweather.png" alt="Card image cap">
+        <div class="card-body">
+          <h4 class="card-title">MuhWeather 'n' Map</h4>
+          <p class="card-text">Another weather app. Made for fun. Geolocaion, Google Maps API, Dark Sky API</p>
+          <a href="https://jrdevsc.github.io/muhweathernmap" class="btn btn-outline-info">View <i class="fa fa-eye"></i></a>
+          <a href="https://github.com/jrdevsc/muhweathernmap" class="btn btn-outline-success">Github <i class="fa fa-github"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</section>
+
+<section id="contact">
+  <div class="row">
+    <div class="col text-center">
+      <h1 class="display-2">Contact</h1>
+      <h3>jr.devsc@gmail.com</h3>
+      <h3>864-354-0962</h3>
+    </div>
+  </div>
+</section>
+
+
+<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.bundle.min.js"></script>
+<script src="scripts.js"></script>
 </body>
 </html>
