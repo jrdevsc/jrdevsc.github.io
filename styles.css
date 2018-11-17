@@ -1,16 +1,24 @@
-/*Font-Family: 'Roboto Condensed', Sans-Serif;
-Font-Size: 35px;
-Font-Family: 'Cabin', Sans-Serif;
-Font-Size: 16px;*/
+/* font-family: 'Luckiest Guy', cursive; */
+/* font-family: 'Roboto', sans-serif; */
 
 /*typeface styles*/
 
-h1, h2{
-  font-family: 'Roboto Condensed', Sans-Serif;
+.jumbotron h1{
+  font-family: 'Luckiest Guy', cursive;
+  font-size: 7em;
+  color: white;
+  text-shadow: 4px 4px #000, -4px -4px #000;
+}
+
+.jumbotron p{
+  font-family: 'Roboto', sans-serif;
+  font-size: 2em;
+  text-decoration: underline;
 }
 
 body{
-  font-family: 'Cabin'
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.2em
 }
 
 /*navigation styles*/
@@ -33,7 +41,7 @@ nav.bg-light{
 /*jumbotron styles*/
 #welcome .jumbotron{
   margin-top: 110px;
-  height: 85vh;
+  height: 70vh;
   width: 100%;
 }
 
@@ -52,7 +60,7 @@ nav.bg-light{
 }
 
 #about{
-  height: 85vh;
+  height: 70vh;
   /*background-color: rgba(0, 0, 0, .6);*/
 }
 
