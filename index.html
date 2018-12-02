@@ -2,240 +2,165 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Julian Rudolph | Front End Developer</title>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-  <!-- <link href="https://fonts.googleapis.com/css?family=Cabin|Roboto:400,700|Roboto+Condensed:400,700" rel="stylesheet"> -->
-  <link href="https://fonts.googleapis.com/css?family=Luckiest+Guy" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  <title>Julian Rudolph</title>
+  <link href="https://fonts.googleapis.com/css?family=Alegreya+SC|Lato" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
-  <section id="navs">
-    <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
-      <a class="navbar-brand" href="jrdevsc.github.io">Julian Rudolph</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav ml-auto" >
-          <li class="nav-item">
-            <a class="nav-link" href="#welcome">Home <span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#about">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#projects">Projects</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#contact">Contact</a>
-          </li>
-        </ul>
-      </div>
+  <header>
+    <h2><a href="https://jrdevsc.github.io">Front End Developer</a></h2>
+    <nav>
+      <li><a href="https://jrdevsc.github.io">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
     </nav>
+  </header>
+
+  <section class="hero">
+    <div class="hero-content-area">
+      <h1>Julian Rud<span class="rednose">o</span>lph</h1>
+      <h3>Front End & Javascript</h3>
+    </div>
   </section>
 
-<section id="welcome">
-  <div class="jumbotron text-center">
-    <h1 class="display-1">Julian Rudolph</h1>
-    <p class="lead">Front End Developer</p>
-  </div>
-</section>
+  <section id="about" class="about">
+    <h2 class="title">About</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit deserunt vitae eum ab quae sequi ipsam nostrum, sit sunt delectus minima impedit neque nemo, sapiente totam maiores at. Veniam quasi quod itaque minus maiores laborum consequatur, dolor praesentium natus. Id provident repellat assumenda magni dicta eum sed quia illo! Repellendus impedit nesciunt, animi magni quibusdam.</p>
+  </section>
 
-<section id="about">
-  <div class="row">
-    <div class="col" id="abMe">
-      <h1 class="display-2">About</h1>
-    </div>
-  </div>
-  <div class="container">
-    <div class="row">
-      <div class="col align-self-center" id="abTxt">
-        <p class="text-center">Hello, I'm a front end developer with a passion for javascript.</p>
-      </div>
-    </div>
-    <div class="row">
-      <div class="col" id="icons1">
-    <i class="fa fa-html5 fa-4x" aria-hidden="true"></i>
-    <i class="fa fa-css3 fa-4x" aria-hidden="true"></i>
-    <i class="fa fa-code fa-4x" aria-hidden="true"></i>
-    <i class="fa fa-codepen fa-4x" aria-hidden="true"></i>
-    <i class="fa fa-free-code-camp fa-4x" aria-hidden="true"></i>
-    <i class="fa fa-github-alt fa-4x" aria-hidden="true"></i>
-    <i class="fa fa-database fa-4x" aria-hidden="true"></i>
-    </div>
-    </div>
-  </div>
-</section>
-
-<section id="projects">
-  <div class="container">
-  <div class="row">
-    <div class="col">
-      <h1 class="display-2 text-center">Projects</h1>
-    </div>
-  </div>
-  <div class="row">
-
-    <div class="col">
-      <div class="card" style="width: 20rem;">
-        <img class="card-img-top" src="img/RandoQuotz.png" alt="RandoQuotz">
-        <div class="card-body">
-          <h4 class="card-title">RandoQuotz</h4>
-          <p class="card-text">Random quote generator. Built as part of FreeCodeCamp's front end curriculum. Uses ajax to retreive quotes from an API.</p>
-          <a href="https://codepen.io/jrdevsc/full/LxYKYG" class="btn btn-outline-info">View <i class="fa fa-eye"></i></a>
-        </div>
-      </div>
-    </div>
-    <div class="col">
-      <div class="card" style="width: 20rem;">
-        <img class="card-img-top" src="img/weathe_WU.png" alt="Local Weather App">
-        <div class="card-body">
-          <h4 class="card-title">Local Weather App</h4>
-          <p class="card-text">Shows your local weather. Built as part of FreeCodeCamp's front end curriculum.  Uses ajax and the weather underground API.</p>
-          <a href="https://jrdevsc.github.io/wuWeather/" class="btn btn-outline-info">View <i class="fa fa-eye"></i></a>
-          <a href="https://github.com/jrdevsc/wuWeather" class="btn btn-outline-success">Github <i class="fa fa-github"></i></a>
-        </div>
-      </div>
-    </div>
-    <div class="col">
-      <div class="card" style="width: 20rem;">
-        <img class="card-img-top" src="img/twitch_me.png" alt="TwitchMe">
-        <div class="card-body">
-          <h4 class="card-title">TwitchMe</h4>
-          <p class="card-text">Twitch Search. Uses Twitch API to find users who are streaming, and those that aren't.  Built as part of FreeCodeCamp's front end curriculum.</p>
-          <a href="https://codepen.io/jprudolph/full/wraMEN/" class="btn btn-outline-info">View <i class="fa fa-eye"></i></a>
-          <a href="https://github.com/jrdevsc/fccTwitchMe" class="btn btn-outline-success">Github <i class="fa fa-github"></i></a>
-        </div>
-      </div>
-    </div>
-    <div class="col">
-      <div class="card" style="width: 20rem;">
-        <img class="card-img-top" src="img/ge-zz.png" alt="GE-zz">
-        <div class="card-body">
-          <h4 class="card-title">GE-zz</h4>
-          <p class="card-text">An app for people on GE Gas Turbine's assembly line to tell me, the forklift driver, what parts they needed, without having to waste time and trips.</p>
-          <a href="https://safe-atoll-52530.herokuapp.com/" class="btn btn-outline-info">View <i class="fa fa-eye"></i></a>
-          <a href="https://github.com/jrdevsc/gezz2" class="btn btn-outline-success">Github <i class="fa fa-github"></i></a>
-        </div>
-      </div>
-    </div>
-    <div class="col">
-      <div class="card" style="width: 20rem;">
-        <img class="card-img-top" src="img/wikiviewer.png" alt="Wiki View">
-        <div class="card-body">
-          <h4 class="card-title">Wiki View</h4>
-          <p class="card-text">Wikipedia viewer. Uses ajax to request a random article or the search term. Built as part of FreeCodeCamp's front end curriculum.</p>
-          <a href="https://codepen.io/jprudolph/full/VMLqjm/" class="btn btn-outline-info">View <i class="fa fa-eye"></i></a>
-        </div>
-      </div>
-    </div>
-    <div class="col">
-      <div class="card" style="width: 20rem;">
-        <img class="card-img-top" src="img/drronpaul.png" alt="Tribute Page">
-        <div class="card-body">
-          <h4 class="card-title">Tribute Page</h4>
-          <p class="card-text">Basic HTML and CSS here. Built as part of FreeCodeCamp's front end curriculum.</p>
-          <a href="https://codepen.io/jprudolph/full/XavQQY/" class="btn btn-outline-info">View <i class="fa fa-eye"></i></a>
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="row">
-    <div class="col">
-      <div class="card" style="width: 20rem;">
-        <img class="card-img-top" src="img/btcvalue.png" alt="BTC Checker">
-        <div class="card-body">
-          <h4 class="card-title">Quick BTC Checker</h4>
-          <p class="card-text">Lets build a time machine, go back to 2011, invest in BTC, come back to today, and live off the millions in BTC?  Simple BTC checker here. Basic HTML, CSS and JS.</p>
-          <a href="https://codepen.io/jprudolph/full/mBXwRq/" class="btn btn-outline-info">View <i class="fa fa-eye"></i></a>
-        </div>
-      </div>
-    </div>
-    <div class="col">
-      <div class="card" style="width: 20rem;">
-        <img class="card-img-top" src="img/starwarsapi.png" alt="Starwars API">
-        <div class="card-body">
-          <h4 class="card-title">Starwars API</h4>
-          <p class="card-text">Built for fun. Uses the Starwars API and displays the 'crawl text' and basic stats (characters, planets, starships, etc).</p>
-          <a href="https://codepen.io/jprudolph/full/XebOVa/" class="btn btn-outline-info">View <i class="fa fa-eye"></i></a>
-        </div>
-      </div>
-    </div>
-    <div class="col">
-      <div class="card" style="width: 20rem;">
-        <img class="card-img-top" src="img/drbawe.png" alt="Dr.B.Awe">
-        <div class="card-body">
-          <h4 class="card-title">Dr. B. Awe</h4>
-          <p class="card-text">Client site. Wordpress using the Divi Theme from elegant themes. </p>
-          <a href="http://drbawe.com" class="btn btn-outline-info">View <i class="fa fa-eye"></i></a>
-        </div>
-      </div>
-    </div>
-    <div class="col">
-      <div class="card" style="width: 20rem;">
-        <img class="card-img-top" src="img/imperialDent.png" alt="Dr.B.Awe">
-        <div class="card-body">
-          <h4 class="card-title">Imperial Dent Removal</h4>
-          <p class="card-text">Client site. Wordpress w/ Divi theme! </p>
-          <a href="http://imperialdentremoval.com" class="btn btn-outline-info">View <i class="fa fa-eye"></i></a>
-        </div>
-      </div>
-    </div>
-    <div class="col">
-      <div class="card" style="width: 20rem;">
-        <img class="card-img-top" src="img/muhweather.png" alt="MuhWeather">
-        <div class="card-body">
-          <h4 class="card-title">MuhWeather 'n' Map</h4>
-          <p class="card-text">Another weather app. Made for fun. Geolocaion, Google Maps API, Dark Sky API</p>
-          <a href="https://jrdevsc.github.io/muhweathernmap" class="btn btn-outline-info">View <i class="fa fa-eye"></i></a>
-          <a href="https://github.com/jrdevsc/muhweathernmap" class="btn btn-outline-success">Github <i class="fa fa-github"></i></a>
-        </div>
-      </div>
-    </div>
-    <div class="col">
-      <div class="card" style="width: 20rem;">
-        <img class="card-img-top" src="img/AltcoinsSearch.png" alt="AltCoinz">
-        <div class="card-body">
-          <h4 class="card-title">AltCoinz</h4>
-          <p class="card-text">Being interested in cryptocurrencies and the blockchain. I built this to help filter out and return certain cryptocurrencies that fit the criteria. Uses the Coin Market Cap API and Axios.</p>
-          <a href="https://jrdevsc.github.io/altcoinsearch/" class="btn btn-outline-info">View <i class="fa fa-eye"></i></a>
-          <a href="https://github.com/jrdevsc/altcoinsearch" class="btn btn-outline-success">Github <i class="fa fa-github"></i></a>
-        </div>
-      </div>
-    </div>
-    <div class="col">
-      <div class="card" style="width: 20rem;">
-        <img class="card-img-top" src="img/RyansAltcoins.png" alt="AltCoinz">
-        <div class="card-body">
-          <h4 class="card-title">Ryan's AltCoin Filter</h4>
-          <p class="card-text">Another cryptocurrency app. This one is based on criteria from a youtuber. Uses the Coin Market Cap API and axios. Also has a nifty Google font!!</p>
-          <a href="https://jrdevsc.github.io/altcoin2/" class="btn btn-outline-info">View <i class="fa fa-eye"></i></a>
-          <a href="https://github.com/jrdevsc/altcoin2" class="btn btn-outline-success">Github <i class="fa fa-github"></i></a>
-        </div>
+  <section id="projects" class="projects">
+    <h2 class="title">Projects</h2>
+    <div class="projectList">
+      <img src="img/imperialDent.png" class="projectImg">
+      <div class="projectText">
+        <h3 class="projectTitle">Imperial Dent Removal</h3>
+        <h3 class="lead">Wordpress</h3>
+        <p>A simple project for an awesome company.  I've done a lot of work for Imperial Dent Removal and still maintain this website.</p>
+        <a href="http://imperialdentremoval.com" class="btn">View</a>
       </div>
     </div>
 
-
-  </div>
-</div>
-</section>
-
-<section id="contact">
-  <div class="row">
-    <div class="col text-center">
-      <h1 class="display-2">Contact</h1>
-      <h3>jprudolph03@gmail.com</h3>
-      <h3>864-354-0962</h3>
+    <div class="projectListRev">
+      <img class='projectImg' src="img/RandoQuotz.png">
+      <div class="projectText">
+        <h3 class="projectTitle">RandoQuotz</h3>
+        <h3 class="lead">HTML, CSS, jQuery, AJAX, forismatic API</h3>
+        <p>RandoQuotz was built as part of Free Code Camp's front end requirements.  It is kept on codepen and uses a simple ajax call to the forismatic api. </p>
+        <a href="https://codepen.io/jprudolph/full/bodGbg/" class="btn">View</a>
+      </div>
     </div>
-  </div>
-</section>
 
+    <div class="projectList">
+      <img src="img/drronpaul.png" class="projectImg">
+      <div class="projectText">
+        <h3 class="projectTitle">Dr. Ron Paul Tribute</h3>
+        <h3 class="lead">HTML, CSS, Bootstrap, Libertarion Inspiration</h3>
+        <p>Another Free Code Camp project for the one and only Dr. Ron Paul. This project uses html and css with a bit of bootstrap mixed in!</p>
+        <a href="https://codepen.io/jprudolph/full/XavQQY/" class="btn">View</a>
+      </div>
+    </div>
 
-<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.bundle.min.js"></script>
+    <div class="projectListRev">
+      <img class='projectImg' src="img/twitchme.png">
+      <div class="projectText">
+        <h3 class="projectTitle">TwitchMe</h3>
+        <h3 class="lead">HTML, CSS, javascript, AJAX, Twitch API</h3>
+        <p>Yet another Free Code Camp project. TwitchMe uses the twitch API to find users that are streaming (including what they are streaming), and has a search function so you can search for you favorite streamer!</p>
+        <a href="https://codepen.io/jprudolph/full/wraMEN/" class="btn">View</a>
+      </div>
+    </div>
+
+    <div class="projectList">
+      <img src="img/AltcoinsSearch.png" class="projectImg">
+      <div class="projectText">
+        <h3 class="projectTitle">Altcoins Search</h3>
+        <h3 class="lead">HTML, CSS, javascript, Axios, CoinMarketCap API</h3>
+        <p>Along with being a front end developer, I really love researching and reading about different cryptocurrencies and their related projects.  I enjoy the complexity and utility of the various blockchains.  This project uses the coin market cap api to gather a list of altcoins that match wha the user is looking for. Go ahead and try it...I dare you!</p>
+        <a href="https://jrdevsc.github.io/altcoinsearch/" class="btn">View</a>
+        <a href="https://github.com/jrdevsc/altcoinsearch" class="btn">Github</a>
+      </div>
+    </div>
+
+    <div class="projectListRev">
+      <img class='projectImg' src="img/RyansAltcoins.png">
+      <div class="projectText">
+        <h3 class="projectTitle">Ryan's AltCoins</h3>
+        <h3 class="lead">HTML, CSS, javascript, Axios, CoinMarketCap API</h3>
+        <p>Another crypto project.  This was inspired by a youtuber and doesn't really have a search function. Instead, it just filters out altcoins based on hard coded values. Pretty fun none the less!</p>
+        <a href="https://jrdevsc.github.io/altcoin2/" class="btn">View</a>
+        <a href="https://github.com/jrdevsc/altcoin2" class="btn">Github</a>
+      </div>
+    </div>
+
+    <div class="projectList">
+      <img src="img/weather_WU.png" class="projectImg">
+      <div class="projectText">
+        <h3 class="projectTitle">Local Weather App</h3>
+        <h3 class="lead">HTML, CSS, javascript, jQuery, Axios, Weather Underground API</h3>
+        <p>A simple local weather app. It doesn't tell you the forecast, but it does tell you what the weather is where ever you are. I mean, who really looks outside anyway?  This was built as part of free code camp's front end certificate! Instead of using ajax, I used axios, I promise!</p>
+        <a href="https://jrdevsc.github.io/wuWeather/" class="btn">View</a>
+        <a href="https://github.com/jrdevsc/wuWeather" class="btn">Github</a>
+      </div>
+    </div>
+
+    <div class="projectListRev">
+      <img class='projectImg' src="img/btcValue.png">
+      <div class="projectText">
+        <h3 class="projectTitle">Quick BTC Checker</h3>
+        <h3 class="lead">HTML, CSS, javascript, Axios, CoinMarketCap API</h3>
+        <p>Just a simple BTC price checker! Uses axios, because promises are awesome, and the coin market cap API. </p>
+        <a href="https://codepen.io/jprudolph/full/mBXwRq/" class="btn">View</a>
+      </div>
+    </div>
+
+    <div class="projectList">
+      <img src="img/wikiView.png" class="projectImg">
+      <div class="projectText">
+        <h3 class="projectTitle">Wiki-Viewer</h3>
+        <h3 class="lead">HTML, CSS, Javascript, jQuery, Wikipedia API</h3>
+        <p>A project that uses the wikipedia API to search for the given search term. If the user is unsure what to search for, there is an option to find a random article.</p>
+        <a href="https://codepen.io/jprudolph/full/VMLqjm/" class="btn">View</a>
+      </div>
+    </div>
+
+    <div class="projectListRev">
+      <img class='projectImg' src="img/drbawe.png">
+      <div class="projectText">
+        <h3 class="projectTitle">DR. B. Awe</h3>
+        <h3 class="lead">Wordpress</h3>
+        <p>A website for a family friend and local chiro in upstate SC! Awesome person to work with!</p>
+        <a href="https://drbawe.com" class="btn">View</a>
+      </div>
+    </div>
+
+    <div class="projectList">
+      <img src="img/starwarsapi.png" class="projectImg">
+      <div class="projectText">
+        <h3 class="projectTitle">Starwars API</h3>
+        <h3 class="lead">HTML, CSS, Javascript, jQuery, Axios, StarWars API (SWAPI)</h3>
+        <p>Love it or hate it, Star Wars is quite the saga. This project was made for funsies and uses the StarWars API and axios to grab the scrolling text at the begining of the movies. Also shows basic stats like the number of planets and starships.</p>
+        <a href="https://codepen.io/jprudolph/full/XebOVa/" class="btn">View</a>
+      </div>
+    </div>
+
+    <div class="projectListRev">
+      <img class='projectImg' src="img/ge-zz.png">
+      <div class="projectText">
+        <h3 class="projectTitle">GE-zz Guys!</h3>
+        <h3 class="lead">HTML, CSS, Express.js, Javascript, jquery, Twilio API</h3>
+        <p>What do you do when one of GE's super smart engineers trys to over complicate the job of the forklift driver???  Simple: the forklift driver writes some code and makes it easy. This project came from having parts to deliver at various places in GE's Gas Turbine plant in SC. Instead of making 4 trips to get the required part to the proper machine, the machinist could simply put a request in and it would text me (the forklift driver) what they needed. From 4 trips to 1! Since this was never really meant to be used, more of a proof of concept than anything, I have since let it sit. The twilio api (free version) doesn't work anymore for this app. But it proved my concept!</p>
+        <a href="https://safe-atoll-52530.herokuapp.com/" class="btn">View</a>
+        <a href="https://github.com/jrdevsc/gezz2" class="btn">Github</a>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <h2 class='title'>Contact</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit, accusamus! Vitae accusantium doloribus molestiae laborum consequuntur, eaque explicabo magnam voluptatum. Iure, illo, assumenda!</p>
+  </section>
+
 </body>
 </html>
