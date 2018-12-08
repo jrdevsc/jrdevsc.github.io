@@ -209,6 +209,10 @@ h3.lead{
   font: 16px normal;
 }
 
+i{
+  padding-right: 5px;
+}
+
 /* contact styles */
 
 .contact{
