@@ -36,9 +36,13 @@ a:hover{
 
 a.btn{
   padding: 15px 25px;
-  border-radius: 10px;
-  /* margin: 100px; */
+  border-radius: 20px;
   border: 1px solid firebrick;
+}
+
+a.btn:hover{
+  color: white;
+  background: firebrick;
 }
 
 section{
@@ -155,25 +159,6 @@ header nav li{
     font-size: 45px;
   }
 }
-
-
-/* about section */
-/* section.about{
-  height: 75vh;
-}
-
-section.about p{
-  width: 75vw;
-  font-size: 22px;
-  line-height: 120%;
-  text-align: center;
-}
-
-@media (max-width: 800px){
-  section.about p{
-    font-size: 18px;
-  }
-} */
 
 /* projects section */
 
