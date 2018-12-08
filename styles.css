@@ -100,7 +100,7 @@ header nav li{
   margin: 0 15px;
 }
 
-@media (max-width: 720px){
+@media (max-width: 800px){
   header{
     flex-direction: column;
   }
@@ -131,7 +131,6 @@ header nav li{
 .hero h3{
   font-family: 'Lato', sans-serif;
   font-size: 28px;
-  margin-bottom: 40px;
 }
 
 .hero-content-area{
@@ -159,9 +158,8 @@ header nav li{
 
 
 /* about section */
-section.about{
+/* section.about{
   height: 75vh;
-  margin-bottom: 50px;
 }
 
 section.about p{
@@ -175,13 +173,15 @@ section.about p{
   section.about p{
     font-size: 18px;
   }
-}
+} */
 
 /* projects section */
 
 .projectImg{
   height: 250px;
   width: 350px;
+  border-radius: 10px;
+  box-shadow: 2px 3px 3px rgba(0, 0, 0, .5);
 }
 
 .projectText{
@@ -208,7 +208,6 @@ section.about p{
 
 @media (max-width: 800px){
   .projectList, .projectListRev{
-    /* background-color: orange; */
     flex-direction: column;
     text-align: center;
     margin: 10px;
@@ -219,7 +218,7 @@ section.about p{
 }
 
 h3.lead{
-  color: #cccaaa;
+  color: rgba(0, 0, 0, .7);
   font-family: 'Lato', sans-serif;
   margin: 10px 0;
   font: 16px normal;
@@ -229,4 +228,8 @@ h3.lead{
 
 .contact{
   text-align: center;
+}
+
+.contact h3{
+  margin: 10px;
 }
